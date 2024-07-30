@@ -431,7 +431,19 @@
     "Longitude": 19.168147,
     "id": ""
   },
-  
+  {
+    "Name": "Sosnowiec Południowy",
+    "Prefix": "SPł1",
+    "DifficultyLevel": 0,
+    "MainImageURL": "",
+    "AdditionalImage1URL": "",
+    "AdditionalImage2URL": "",
+    "DispatchedBy": [],
+    "Latititude": 50.266928575143105,
+    "Longitude": 19.129109141292485,
+    "id": ""
+  },
+    
 
   {
     "Name": "Sprowa",
@@ -481,6 +493,18 @@
     "DispatchedBy": [],
     "Latititude": 50.303755,
     "Longitude": 19.286973,
+    "id": ""
+  },
+  {
+    "Name": "Sosnowiec Maczki",
+    "Prefix": "SMa1",
+    "DifficultyLevel": 0,
+    "MainImageURL": "",
+    "AdditionalImage1URL": "",
+    "AdditionalImage2URL": "",
+    "DispatchedBy": [],
+    "Latititude": 50.26587022594267, 
+    "Longitude": 19.26830801128885,
     "id": ""
   },
   {
