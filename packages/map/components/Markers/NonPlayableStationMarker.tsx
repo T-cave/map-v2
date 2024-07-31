@@ -14,8 +14,8 @@ export const NonPlayableStationMarker = ({ station }: StationMarkerProps) => {
 	});
 
     let displayText = station.Name
-    if (station.Prefix != "") {
-        displayText += " [" + station.Prefix + "]"
+    if (station.Prefix !== "") {
+        displayText += ` [` + station.Prefix + `]`
     }
 
 	return (
