@@ -12,13 +12,13 @@ export const NonPlayableStationMarker = ({ station }: StationMarkerProps) => {
 		iconSize: [16, 16],
 		popupAnchor: [0, -16],
 	});
-
-    let displayText
-    if (station.Prefix !== "") {
-        displayText = station.Name
+	
+	let displayText
+    if (station.Prefix == "") {
+        displayText = `${station.Name}`
     } else {
-		displayText = station.Name + " [" + station.Prefix + "]"
-	}
+        displayText = `${station.Name} [${station.Prefix}]`
+    }
 
 	return (
 		<Marker
